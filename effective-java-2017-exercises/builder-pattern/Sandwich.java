@@ -54,7 +54,7 @@ public class Sandwich{
     }
 
     private Sandwich(Builder builder){
-        this.bread = builder.bread;
+                this.bread = builder.bread;
         this.meat = builder.meat;
         this.cheese = builder.cheese;
         this.lettuce = builder.lettuce;
