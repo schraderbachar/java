@@ -85,7 +85,6 @@ class NotificationDemo {
         EmailSender gmail = new EmailSender("smtp.gmail.com");
         NotificationService notifs = new NotificationService(gmail);
         notifs.notifyUser("Alice", "Your order has shipped!");
-        // TODO: Create an EmailSender with server "smtp.gmail.com"
 
 
         // TEST 2: SMS notifications (same service, different dependency!)
